@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/SCIENCES/khdahmane/module-project/Project-SPI/student.cpp" "/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/library.dir/student.o"
+  "/home/SCIENCES/diiberrake/module-project/Project-SPI/student.cpp" "/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/library.dir/student.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

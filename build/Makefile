@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI
+CMAKE_SOURCE_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI/build
+CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,9 +82,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ code: cmake_check_build_system
 code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
+
+#=============================================================================
+# Target rules for targets named doc
+
+# Build rule for target.
+doc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doc
+.PHONY : doc
+
+# fast build rule for target.
+doc/fast:
+	$(MAKE) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+.PHONY : doc/fast
 
 #=============================================================================
 # Target rules for targets named library
@@ -230,6 +243,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... code"
+	@echo "... doc"
 	@echo "... edit_cache"
 	@echo "... library"
 	@echo "... rebuild_cache"

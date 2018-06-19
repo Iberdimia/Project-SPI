@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/SCIENCES/khdahmane/module-project/Project-SPI/demo.cpp" "/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/code.dir/demo.o"
+  "/home/SCIENCES/diiberrake/module-project/Project-SPI/demo.cpp" "/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/code.dir/demo.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/library.dir/DependInfo.cmake"
+  "/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/library.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

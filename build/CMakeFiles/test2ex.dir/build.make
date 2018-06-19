@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI
+CMAKE_SOURCE_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI/build
+CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test2ex.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/test2ex.dir/flags.make
 
 CMakeFiles/test2ex.dir/test2.o: CMakeFiles/test2ex.dir/flags.make
 CMakeFiles/test2ex.dir/test2.o: ../test2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test2ex.dir/test2.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test2ex.dir/test2.o -c /home/SCIENCES/khdahmane/module-project/Project-SPI/test2.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test2ex.dir/test2.o -c /home/SCIENCES/diiberrake/module-project/Project-SPI/test2.cpp
 
 CMakeFiles/test2ex.dir/test2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test2ex.dir/test2.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/SCIENCES/khdahmane/module-project/Project-SPI/test2.cpp > CMakeFiles/test2ex.dir/test2.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/SCIENCES/diiberrake/module-project/Project-SPI/test2.cpp > CMakeFiles/test2ex.dir/test2.i
 
 CMakeFiles/test2ex.dir/test2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test2ex.dir/test2.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/SCIENCES/khdahmane/module-project/Project-SPI/test2.cpp -o CMakeFiles/test2ex.dir/test2.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/SCIENCES/diiberrake/module-project/Project-SPI/test2.cpp -o CMakeFiles/test2ex.dir/test2.s
 
 CMakeFiles/test2ex.dir/test2.o.requires:
 .PHONY : CMakeFiles/test2ex.dir/test2.o.requires
@@ -101,6 +101,6 @@ CMakeFiles/test2ex.dir/clean:
 .PHONY : CMakeFiles/test2ex.dir/clean
 
 CMakeFiles/test2ex.dir/depend:
-	cd /home/SCIENCES/khdahmane/module-project/Project-SPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/SCIENCES/khdahmane/module-project/Project-SPI /home/SCIENCES/khdahmane/module-project/Project-SPI /home/SCIENCES/khdahmane/module-project/Project-SPI/build /home/SCIENCES/khdahmane/module-project/Project-SPI/build /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/test2ex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/SCIENCES/diiberrake/module-project/Project-SPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/SCIENCES/diiberrake/module-project/Project-SPI /home/SCIENCES/diiberrake/module-project/Project-SPI /home/SCIENCES/diiberrake/module-project/Project-SPI/build /home/SCIENCES/diiberrake/module-project/Project-SPI/build /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/test2ex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test2ex.dir/depend
 

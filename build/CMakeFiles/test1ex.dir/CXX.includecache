@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
+string
+-
+vector
+-
+
+/home/SCIENCES/diiberrake/module-project/Project-SPI/test1.cpp
+iostream
+-
+student.h
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
+

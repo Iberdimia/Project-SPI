@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/SCIENCES/khdahmane/module-project/Project-SPI/demo.cpp
+/home/SCIENCES/diiberrake/module-project/Project-SPI/demo.cpp
 iostream
 -
 student.h
-/home/SCIENCES/khdahmane/module-project/Project-SPI/student.h
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
 vector
 -
 iostream
 -
 
-/home/SCIENCES/khdahmane/module-project/Project-SPI/student.h
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
 string
 -
 vector
