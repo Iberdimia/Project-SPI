@@ -1,0 +1,1 @@
+ADD_EXECUTABLE(code demo.cpp student.cpp test1.cpp test2.cpp)
