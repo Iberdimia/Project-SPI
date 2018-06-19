@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/SCIENCES/khdahmane/module-project/Project-SPI/demo.cpp
+/home/SCIENCES/khdahmane/module-project/Project-SPI/student.h
+string
+-
+vector
+-
+
+/home/SCIENCES/khdahmane/module-project/Project-SPI/test2.cpp
 iostream
 -
 student.h
@@ -14,11 +20,5 @@ student.h
 vector
 -
 iostream
--
-
-/home/SCIENCES/khdahmane/module-project/Project-SPI/student.h
-string
--
-vector
 -
 

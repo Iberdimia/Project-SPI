@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/code.dir/demo.cpp.o  -o code -rdynamic liblibrary.a 
+/usr/bin/c++       CMakeFiles/code.dir/demo.o  -o code -rdynamic liblibrary.a 

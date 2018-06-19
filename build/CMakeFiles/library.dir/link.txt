@@ -1,2 +1,2 @@
-/usr/bin/ar cr liblibrary.a  CMakeFiles/library.dir/student.cpp.o
+/usr/bin/ar cr liblibrary.a  CMakeFiles/library.dir/student.o
 /usr/bin/ranlib liblibrary.a

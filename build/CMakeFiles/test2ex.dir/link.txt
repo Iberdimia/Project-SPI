@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test2ex.dir/test2.o  -o test2ex -rdynamic liblibrary.a 

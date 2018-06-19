@@ -1,2 +1,4 @@
-/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/code.dir
-/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/library.dir
+/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/code.dir
+/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/library.dir
+/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/test1ex.dir
+/home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/test2ex.dir

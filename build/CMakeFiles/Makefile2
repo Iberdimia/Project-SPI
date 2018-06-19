@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI
+CMAKE_SOURCE_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
+CMAKE_BINARY_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/code.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
 CMakeFiles/code.dir/all: CMakeFiles/library.dir/all
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/depend
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles  1
 	@echo "Built target code"
 .PHONY : CMakeFiles/code.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/code.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
 .PHONY : CMakeFiles/code.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/code.dir/clean
 CMakeFiles/library.dir/all:
 	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/depend
 	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles  2
 	@echo "Built target library"
 .PHONY : CMakeFiles/library.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/library.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
 .PHONY : CMakeFiles/library.dir/rule
 
 # Convenience name for target.
@@ -123,6 +123,76 @@ CMakeFiles/library.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/library.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test1ex.dir
+
+# All Build rule for target.
+CMakeFiles/test1ex.dir/all: CMakeFiles/library.dir/all
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/depend
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles  3
+	@echo "Built target test1ex"
+.PHONY : CMakeFiles/test1ex.dir/all
+
+# Include target in all.
+all: CMakeFiles/test1ex.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test1ex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test1ex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
+.PHONY : CMakeFiles/test1ex.dir/rule
+
+# Convenience name for target.
+test1ex: CMakeFiles/test1ex.dir/rule
+.PHONY : test1ex
+
+# clean rule for target.
+CMakeFiles/test1ex.dir/clean:
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/clean
+.PHONY : CMakeFiles/test1ex.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test1ex.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test2ex.dir
+
+# All Build rule for target.
+CMakeFiles/test2ex.dir/all: CMakeFiles/library.dir/all
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/depend
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles  4
+	@echo "Built target test2ex"
+.PHONY : CMakeFiles/test2ex.dir/all
+
+# Include target in all.
+all: CMakeFiles/test2ex.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test2ex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test2ex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
+.PHONY : CMakeFiles/test2ex.dir/rule
+
+# Convenience name for target.
+test2ex: CMakeFiles/test2ex.dir/rule
+.PHONY : test2ex
+
+# clean rule for target.
+CMakeFiles/test2ex.dir/clean:
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/clean
+.PHONY : CMakeFiles/test2ex.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test2ex.dir/clean
 .PHONY : clean
 
 #=============================================================================

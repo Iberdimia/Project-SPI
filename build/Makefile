@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI
+CMAKE_SOURCE_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
+CMAKE_BINARY_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,11 +70,21 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,53 +137,91 @@ library/fast:
 	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/build
 .PHONY : library/fast
 
-demo.o: demo.cpp.o
+#=============================================================================
+# Target rules for targets named test1ex
+
+# Build rule for target.
+test1ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test1ex
+.PHONY : test1ex
+
+# fast build rule for target.
+test1ex/fast:
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/build
+.PHONY : test1ex/fast
+
+#=============================================================================
+# Target rules for targets named test2ex
+
+# Build rule for target.
+test2ex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test2ex
+.PHONY : test2ex
+
+# fast build rule for target.
+test2ex/fast:
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/build
+.PHONY : test2ex/fast
+
+# target to build an object file
+demo.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.o
 .PHONY : demo.o
 
-# target to build an object file
-demo.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.cpp.o
-.PHONY : demo.cpp.o
-
-demo.i: demo.cpp.i
+# target to preprocess a source file
+demo.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.i
 .PHONY : demo.i
 
-# target to preprocess a source file
-demo.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.cpp.i
-.PHONY : demo.cpp.i
-
-demo.s: demo.cpp.s
+# target to generate assembly for a file
+demo.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.s
 .PHONY : demo.s
 
-# target to generate assembly for a file
-demo.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/demo.cpp.s
-.PHONY : demo.cpp.s
-
-student.o: student.cpp.o
+# target to build an object file
+student.o:
+	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.o
 .PHONY : student.o
 
-# target to build an object file
-student.cpp.o:
-	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.cpp.o
-.PHONY : student.cpp.o
-
-student.i: student.cpp.i
+# target to preprocess a source file
+student.i:
+	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.i
 .PHONY : student.i
 
-# target to preprocess a source file
-student.cpp.i:
-	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.cpp.i
-.PHONY : student.cpp.i
-
-student.s: student.cpp.s
+# target to generate assembly for a file
+student.s:
+	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.s
 .PHONY : student.s
 
+# target to build an object file
+test1.o:
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/test1.o
+.PHONY : test1.o
+
+# target to preprocess a source file
+test1.i:
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/test1.i
+.PHONY : test1.i
+
 # target to generate assembly for a file
-student.cpp.s:
-	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.cpp.s
-.PHONY : student.cpp.s
+test1.s:
+	$(MAKE) -f CMakeFiles/test1ex.dir/build.make CMakeFiles/test1ex.dir/test1.s
+.PHONY : test1.s
+
+# target to build an object file
+test2.o:
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/test2.o
+.PHONY : test2.o
+
+# target to preprocess a source file
+test2.i:
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/test2.i
+.PHONY : test2.i
+
+# target to generate assembly for a file
+test2.s:
+	$(MAKE) -f CMakeFiles/test2ex.dir/build.make CMakeFiles/test2ex.dir/test2.s
+.PHONY : test2.s
 
 # Help Target
 help:
@@ -185,12 +233,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... library"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... test1ex"
+	@echo "... test2ex"
 	@echo "... demo.o"
 	@echo "... demo.i"
 	@echo "... demo.s"
 	@echo "... student.o"
 	@echo "... student.i"
 	@echo "... student.s"
+	@echo "... test1.o"
+	@echo "... test1.i"
+	@echo "... test1.s"
+	@echo "... test2.o"
+	@echo "... test2.i"
+	@echo "... test2.s"
 .PHONY : help
 
 

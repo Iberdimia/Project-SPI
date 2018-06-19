@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI
+CMAKE_SOURCE_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/SCIENCES/diiberrake/module-project/Project-SPI/build
+CMAKE_BINARY_DIR = /home/SCIENCES/khdahmane/module-project/Project-SPI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/library.dir/depend.make
@@ -52,37 +52,37 @@ include CMakeFiles/library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/library.dir/flags.make
 
-CMakeFiles/library.dir/student.cpp.o: CMakeFiles/library.dir/flags.make
-CMakeFiles/library.dir/student.cpp.o: ../student.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/library.dir/student.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/library.dir/student.cpp.o -c /home/SCIENCES/diiberrake/module-project/Project-SPI/student.cpp
+CMakeFiles/library.dir/student.o: CMakeFiles/library.dir/flags.make
+CMakeFiles/library.dir/student.o: ../student.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/library.dir/student.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/library.dir/student.o -c /home/SCIENCES/khdahmane/module-project/Project-SPI/student.cpp
 
-CMakeFiles/library.dir/student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/student.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/SCIENCES/diiberrake/module-project/Project-SPI/student.cpp > CMakeFiles/library.dir/student.cpp.i
+CMakeFiles/library.dir/student.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/library.dir/student.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/SCIENCES/khdahmane/module-project/Project-SPI/student.cpp > CMakeFiles/library.dir/student.i
 
-CMakeFiles/library.dir/student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/student.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/SCIENCES/diiberrake/module-project/Project-SPI/student.cpp -o CMakeFiles/library.dir/student.cpp.s
+CMakeFiles/library.dir/student.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/library.dir/student.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/SCIENCES/khdahmane/module-project/Project-SPI/student.cpp -o CMakeFiles/library.dir/student.s
 
-CMakeFiles/library.dir/student.cpp.o.requires:
-.PHONY : CMakeFiles/library.dir/student.cpp.o.requires
+CMakeFiles/library.dir/student.o.requires:
+.PHONY : CMakeFiles/library.dir/student.o.requires
 
-CMakeFiles/library.dir/student.cpp.o.provides: CMakeFiles/library.dir/student.cpp.o.requires
-	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.cpp.o.provides.build
-.PHONY : CMakeFiles/library.dir/student.cpp.o.provides
+CMakeFiles/library.dir/student.o.provides: CMakeFiles/library.dir/student.o.requires
+	$(MAKE) -f CMakeFiles/library.dir/build.make CMakeFiles/library.dir/student.o.provides.build
+.PHONY : CMakeFiles/library.dir/student.o.provides
 
-CMakeFiles/library.dir/student.cpp.o.provides.build: CMakeFiles/library.dir/student.cpp.o
+CMakeFiles/library.dir/student.o.provides.build: CMakeFiles/library.dir/student.o
 
 # Object files for target library
 library_OBJECTS = \
-"CMakeFiles/library.dir/student.cpp.o"
+"CMakeFiles/library.dir/student.o"
 
 # External object files for target library
 library_EXTERNAL_OBJECTS =
 
-liblibrary.a: CMakeFiles/library.dir/student.cpp.o
+liblibrary.a: CMakeFiles/library.dir/student.o
 liblibrary.a: CMakeFiles/library.dir/build.make
 liblibrary.a: CMakeFiles/library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library liblibrary.a"
@@ -93,7 +93,7 @@ liblibrary.a: CMakeFiles/library.dir/link.txt
 CMakeFiles/library.dir/build: liblibrary.a
 .PHONY : CMakeFiles/library.dir/build
 
-CMakeFiles/library.dir/requires: CMakeFiles/library.dir/student.cpp.o.requires
+CMakeFiles/library.dir/requires: CMakeFiles/library.dir/student.o.requires
 .PHONY : CMakeFiles/library.dir/requires
 
 CMakeFiles/library.dir/clean:
@@ -101,6 +101,6 @@ CMakeFiles/library.dir/clean:
 .PHONY : CMakeFiles/library.dir/clean
 
 CMakeFiles/library.dir/depend:
-	cd /home/SCIENCES/diiberrake/module-project/Project-SPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/SCIENCES/diiberrake/module-project/Project-SPI /home/SCIENCES/diiberrake/module-project/Project-SPI /home/SCIENCES/diiberrake/module-project/Project-SPI/build /home/SCIENCES/diiberrake/module-project/Project-SPI/build /home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/SCIENCES/khdahmane/module-project/Project-SPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/SCIENCES/khdahmane/module-project/Project-SPI /home/SCIENCES/khdahmane/module-project/Project-SPI /home/SCIENCES/khdahmane/module-project/Project-SPI/build /home/SCIENCES/khdahmane/module-project/Project-SPI/build /home/SCIENCES/khdahmane/module-project/Project-SPI/build/CMakeFiles/library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/library.dir/depend
 
