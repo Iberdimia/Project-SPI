@@ -1,0 +1,2 @@
+/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/code.dir
+/home/SCIENCES/diiberrake/module-project/Project-SPI/build/CMakeFiles/library.dir

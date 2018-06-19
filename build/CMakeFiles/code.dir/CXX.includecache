@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/SCIENCES/diiberrake/module-project/Project-SPI/demo.cpp
+iostream
+-
+student.h
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
+vector
+-
+iostream
+-
+
+/home/SCIENCES/diiberrake/module-project/Project-SPI/student.h
+string
+-
+vector
+-
+
